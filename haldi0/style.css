@@ -1,0 +1,197 @@
+/* Footer background color matching animated background */
+footer {
+    background: linear-gradient(-45deg, #fcb69f 60%, #a1c4fd 100%);
+    color: #222;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    box-shadow: 0 -4px 24px 0 rgba(31, 38, 135, 0.10);
+}
+
+footer a, footer p, footer i {
+    color: #222;
+}
+
+footer a:hover {
+    color: #ff7e5f;
+}
+/* Beautiful animated background */
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(-45deg, #ffecd2, #fcb69f, #a1c4fd, #c2e9fb);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+/* Fade-in animation for all content */
+body > * {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1.2s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* Add a subtle box-shadow and rounded corners to main containers */
+main, .container, .content, section, article {
+    background: rgba(255,255,255,0.85);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+}
+
+/* Animate links on hover */
+a {
+    transition: color 0.3s, text-shadow 0.3s;
+}
+a:hover {
+    color: #ff7e5f;
+    text-shadow: 0 2px 8px #fcb69f88;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+/* navbar styling*/
+
+.nav-bar{
+    height: 70px;
+    width: 100%;
+    background-color: lightgoldenrodyellow ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* logo */
+
+
+.border{
+    border: 0.5px solid transparent;
+}
+
+
+
+/* hero-section */
+
+.hero-section{
+    background-image: url("h1.png");
+    background-size: cover;
+    height: 450px;
+    
+    
+
+}
+
+.hero-msg{
+    background-color: transparent;
+    color: black;
+    font-size: 17px;
+   
+}
+
+/* shop */
+
+.img1{
+    float: left;
+    width: 25%;
+    border-radius: 10%;
+
+}
+.post1{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    margin-top: 4%;
+    background-color: lightgoldenrodyellow;
+    padding: 30px;
+    border-radius: 10%;
+    
+   
+}
+
+.im{
+    float: left;
+    width: 25%;
+    border-radius: 10%;
+}
+
+.cen{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    margin-top: 35%;
+    background-color: lightgoldenrodyellow;
+    padding: 30px;
+    border-radius: 10%;
+}
+
+
+
+/* footer */
+
+footer{
+  margin-top: 900px;
+}
+.foot-1{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-2{
+    background-color:lightgoldenrodyellow;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 10px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.copyright{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+
+}
